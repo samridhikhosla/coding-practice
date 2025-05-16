@@ -17,7 +17,7 @@ class Solution:
                     t_dict[t[j]] += 1
 
             for k in s_dict:
-                if(k not in t_dict) or (s_dict[k] != t_dict[k]): #abb is not an anagram of aab
+                if(k not in t_dict) or (s_dict[k] != t_dict[k]): #'abb' is not an anagram of 'aab'
                     return False
             return True
                 
