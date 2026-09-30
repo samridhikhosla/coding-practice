@@ -1,5 +1,5 @@
 '''
-Question: Largest elements in array
+Question: Largest element in an array
 TC: O(N)
 SC: O(1)
 '''
