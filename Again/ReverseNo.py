@@ -1,7 +1,7 @@
 '''
 Question : Reverse a number
 
-TC: O()
+TC: O(log n to base 10)
 '''
 
 def revNo(nums: int):
