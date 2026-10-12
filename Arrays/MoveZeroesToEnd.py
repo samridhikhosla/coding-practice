@@ -1,5 +1,5 @@
 '''
-Question : Find the maximum sub array sum.
+Question : Move zeroes to the end of the list.
 
 TC: O(N + N)
 SC: O(N)
