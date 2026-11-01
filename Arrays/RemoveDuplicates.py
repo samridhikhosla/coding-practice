@@ -1,5 +1,5 @@
 '''
-Question: Remove duplicates, without making copy of array, return number of unique elements
+Question: Remove duplicates on sorted array, without making copy of array, return number of unique elements
 TC: O(N)
 SC: O(1)
 '''
