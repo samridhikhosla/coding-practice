@@ -18,8 +18,18 @@ def moveZeroes(nums: list[int]):
 
     return nums
    
+def moveZeroesOptimal(nums: list[int]):
+    pointer_j = 0
+
+    for i in range(len(nums)):
+        if nums[i] != 0:
+            nums[i], nums[pointer_j] = nums[pointer_j], nums[i]
+            pointer_j += 1
+
+    return nums
 
 def main():
     x = [1, 0, 2, 3, 2, 0, 0, 4, 5, 1]
     print(moveZeroes(x))
+    print(moveZeroesOptimal(x))
 main()
